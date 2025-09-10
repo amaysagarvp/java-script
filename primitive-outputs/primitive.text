@@ -1,0 +1,9 @@
+primitive
+
+1.string - " , "
+2.number - 6,7.870
+3.boolean - true / fales
+4.null - absense of value
+5.undfined - variable that has been declared but not assigned a value
+6.symbol - unique immutable values , used with object property keys
+7.BigInt - work with very large numbers 
