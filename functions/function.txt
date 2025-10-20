@@ -1,0 +1,16 @@
+function are blocks of code design to perfome a perticular task
+
+1. Function Declaration
+2. Function Expresion
+3. Arrow Function
+4. Callback Function
+5. iife Function
+6.an
+
+
+Pre Defind Function(Building function)
+pre defind function are function already provided by javascript
+
+1.string Function
+2.date function
+3.math function

@@ -1,0 +1,11 @@
+built in function or native methods
+.that are already provided by js
+Features 
+1-time saving
+2-increas code redabilitty
+3-optimize and reliable
+
+eg:
+1-string method and function
+2-date function
+3-math function

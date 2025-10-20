@@ -1,0 +1,8 @@
+operators are symol or keywords used perfom opertaion on variables on variables a
+
+
+1.arithametic
+2.assignment
+3.comparison
+4.logical
+5.ternary

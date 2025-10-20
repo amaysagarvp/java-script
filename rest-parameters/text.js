@@ -1,0 +1,1 @@
+// rest-parameter Syntax(...)allows to accept infinit number of arguments

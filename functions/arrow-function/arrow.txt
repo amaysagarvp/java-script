@@ -1,0 +1,12 @@
+arrow fuctions are shorter syntax creating functions in javascript,intraduced in es6(ecma script 6)
+
+eg
+
+fuction add(a,b){
+    return a+ b
+}
+add (1,2)
+
+2.Arrow functions
+const add = (a,b) => a+b;
+add(1,2)

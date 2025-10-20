@@ -1,0 +1,10 @@
+object oriented programing
+think of oop has making your coustm things (called object)
+we can coustmize (make your thing with properies(charaterstics and action))
+
+1.class-a (blue print for creating object)
+2.object(a instance of class)
+3.encapsulation-(bundling data methods that oppertate only )using secure the data
+4.inheritence-(one class can inherit propertie and method from another(extend key word))
+4.polymorphism-(the ability to use methodes in differnt ways)
+5.abstraction -(hiding complex implimattaion details and providing nesessry details only)

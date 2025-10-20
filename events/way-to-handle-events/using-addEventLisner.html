@@ -1,0 +1,42 @@
+<!-- // you can attach mulitipple handlers to the same events//
+//you remove listners later if needed//
+// cleaner and more flexible// -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="btn">click me</button>
+
+    <script>
+
+        let button = document.getElementById('btn');
+
+        // adding event
+        button.addEventListener('click', function () {
+            alert("button clicked using addEventListener ")
+
+        })
+
+        //adding another event for same button (dought)
+        button.addEventListener('click', function () {
+            console.log("Anothor function for same btn");
+
+        })
+
+        //another event
+        button.addEventListener('click', function () {
+            button.style.background = 'red';
+            button.style.border = 'none';
+            button.style.color = 'black';
+        })
+    </script>
+</body>
+
+</html>
