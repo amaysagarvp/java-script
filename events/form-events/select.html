@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <select id="fruit">
+        <option value="apple">apple</option>
+        <option value="mango">mango</option>
+        <option value="orange">orange </option>
+    </select>
+    <input type="text"  id="text" placeholder="type">
+    <p id="otpt"></p>
+    <script>
+        const selecteditem = document.getElementById("fruit");
+        const output = document.getElementById("otpt");
+        const input = document.getElementById("text");
+
+        selecteditem.addEventListener("change",function(){
+            output.getElementById("otpt")
+        })
+
+    </script>
+</body>
+</html>
