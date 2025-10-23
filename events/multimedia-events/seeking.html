@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <audio id="audioSeeking" controls>
+        <source src="./WhatsApp Audio 2025-10-23 at 14.12.33_9e1e5408.mp3" type="audio/mp3">
+
+        <script>
+            const audioSeeking = document.getElementById("audioSeeking");
+            audioSeeking.addEventListener('seeking',()=>{
+                alert("Seeking event fired")
+            })
+        </script>
+    </audio>
+</body>
+</html>
