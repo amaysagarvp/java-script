@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>User Form</h2>
+    <form id="userFom">
+        <label for="name">Name</label>
+        <input type="text" id="name" required><br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" required><br><br>
+
+        <button type="submit"></button>
+    </form>
+
+    <h3>Saved Data:</h3>
+    <p id="otpt"></p>
+
+
+    <script>
+        const form = document.getElementById("userFom");
+        const output = document.getElementById("otpt")
+
+        //Load data from Localstorage when page Loads
+        window.addEventListener('DomContentLoad',()=>{
+            const savedName = localStorage.getItem('name');
+            const savedEmail = localStorage.getItem('email');
+
+            if(savedName && savedEmail){
+                output.textContent=`Name: ${savedName}, Email: &{savedEmail}`;
+            }
+        })
+
+        //save data to localstorage on form submission
+        form.addEventListener('submit',function(event){
+            event.preventDefault();//prevent page refresh
+
+            const name = document.getElementById('name').value;
+            const email = document.getElementById("email").value;
+
+            localStorage.setItem('name',name);
+            localStorage.setItem('email',email);
+
+            output.textContent = `Name: ${name},Email: ${email}`;
+            form.reset();//clear form input
+        })
+    </script>
+</body>
+</html>
